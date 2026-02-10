@@ -1,0 +1,90 @@
+.container-fluid
+{
+    background-color: rgb(98, 103, 101);
+    margin: 0%;
+    padding: 0%;
+    grid-area: auto;
+    background-image: url('https://media.istockphoto.com/id/1437973980/vector/adopt-me-poster-with-cute-dog-in-cardboard-box-colorful-vector-banner-template-with-cartoon.jpg?s=612x612&w=0&k=20&c=_CQIMEkDOgjraO0fxbvhJpYvgOUa4x-6MIepEe-9BRs=');
+    background-position: 0%;
+    background-repeat: no-repeat;
+}
+.card {
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+  grid-column: fixed;
+  display: flex;
+  flex-direction: column;
+}
+*
+{
+     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStXkF8cb3qHc6PG75Al-iVYMnmIpkqaAegTJz-R13pDOj0ZXhH1WNcRPJUuSbGuW5kIY4&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: fixed; 
+    /* background-color: rgb(23, 118, 118); */
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+h2 {
+  color: #302f2e;
+}
+
+span {
+  color: #9d6f24;
+}
+
+h4 {
+  text-align: right;
+  color: #3c787e;
+}
+
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card:hover
+{
+    box-shadow: black;
+
+}
+/* style.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#pets {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center; /* Optional: center cards horizontally */
+  padding: 20px;
+  gap: 20px; /* Space between cards */
+}
+
+/* Optional styling for individual cards */
+.card {
+  width: 90%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
